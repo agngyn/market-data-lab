@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+cache/
+reports/*.html
+reports/*.md
+reports/figures/
+.env
+*.egg-info/
+dist/
+build/
