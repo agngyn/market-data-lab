@@ -9,6 +9,8 @@ description = "Multi-source market data pipeline and data quality lab (Yahoo / F
 readme = "README.md"
 requires-python = ">=3.9"
 license = {text = "MIT"}
+authors = [{name = "Andy Nguyen"}]
+urls = {Repository = "https://github.com/agngyn/market-data-lab"}
 dependencies = [
   "pandas>=2.1", "numpy>=1.24", "pyarrow>=12", "yfinance>=0.2.40",
   "requests>=2.31", "tenacity>=8.2", "pandera>=0.18", "matplotlib>=3.7",

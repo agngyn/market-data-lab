@@ -1,6 +1,10 @@
 # market-data-lab
 
+*Andy Nguyen · [github.com/agngyn/market-data-lab](https://github.com/agngyn/market-data-lab)*
+
 **Multi-source market data pipeline & data quality lab.** Pulls the same 70-ticker universe from Yahoo Finance, Financial Modeling Prep and Polygon (or from three deterministic synthetic vendors with injected faults), caches every response as Parquet, rebuilds split- and dividend-adjusted series from raw prices + corporate actions, reconciles the vendors against each other, runs 16 assertion-style quality checks, and emits an HTML/Markdown data quality report.
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/agngyn/market-data-lab/blob/main/notebooks/market_data_lab.ipynb)
 
 ```
 python -m mdlab.pipeline --mode synthetic          # zero setup, ~30 s, full report
